@@ -110,6 +110,8 @@ int main(void){
     }
 }
 ```
+[![W3Schools]][Link1]
+
 ### Ternary Operator
 > A **shorthand for If-else** statements.
 It's called **ternary** because it takes **three parameters**: the **condition**, a **value if true**, and a **value if false**.
@@ -149,6 +151,7 @@ int main(void){
     )
 }
 ```
+[![W3Schools]][Link2]
 
 ### Switch case
 > A conditional statement **used when you have multiple possible values** for a variable and wish to **handle each value differently**.
@@ -222,6 +225,8 @@ int main(void){
     }
 }
 ```
+[![W3Schools]][Link3]
+
 ---
 ## Loops
 > Used to **repeat blocks of code**.
@@ -256,6 +261,8 @@ int main(void){
     }
 }
 ```
+[![W3Schools]][Link4]
+
 ### For Loop
 > Repeats a block of code **a specific number of times**.
 
@@ -305,3 +312,13 @@ int main(void){
     } while (num <= 5);
 }
 ```
+[![W3Schools]][Link5]
+
+<!------------------------------>
+[W3Schools]: https://img.shields.io/badge/W3Schools-04AA6D?logo=w3schools&logoColor=fff
+[Link1]: https://www.w3schools.com/c/tryc.php?filename=demo_if_else_if
+[Link2]: https://www.w3schools.com/c/tryc.php?filename=demo_if_ternary
+[Link3]: https://www.w3schools.com/c/tryc.php?filename=demo_switch_default
+[Link4]: https://www.w3schools.com/c/tryc.php?filename=demo_while_loop
+[Link5]: https://www.w3schools.com/c/tryc.php?filename=demo_for_loop
+[Link6]: https://www.w3schools.com/c/tryc.php?filename=demo_while_do
