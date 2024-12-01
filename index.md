@@ -1,49 +1,45 @@
 # ComProg1 Reviewer
-## Exam Coverage
-1. Programming Concepts
-2. Basis of Programming Structure
-3. Conditional Statements
----
+
 ## Data Types
-- int
-  - A  whole number consisting of an optional sign (+ or -) followed by a sequence of digits.
-  - Often used for loops and conditional statements.
+- `int`
+  - A  **whole number** consisting of an optional sign (+ or -) followed by a sequence of digits.
+  - Often used for **loops and conditional statements**.
   - `int x = 9;`
-- float
+- `float`
   - Consists of an optional sign (+ or -), followed by one or more digits, a decimal point and/or one or more further digits.
-  - A decimal number that can only handle 7 decimal digits.
+  - A **decimal number** that can only handle **7 decimal digits**.
   - `float x = 3.1415927;`
-- double
-  - A special float that can store more (15) decimal digits.
-  - Often used for scientific/financial computations or anywhere where accuracy matters.
+- `double`
+  - A special float that can store **more (15) decimal digits**.
+  - Often used for **scientific/financial** computations or anywhere where **accuracy matters**.
   - `double x = 3.141592653589793;`
-- char
-  - A variable that stores a single character; it can be a single letter, number, or symbol.
-  - May hold more characters when initialized as an array.
+- `char`
+  - A variable that **stores a single character**; it can be a single letter, number, or symbol.
+  - Acts as a **string when initialized as an array**.
   - `char x = 'a';`
   - `char y[5] = "abcde";`
 ---
 ## Arithmetic Operators
 ### Unary Operators
-> Operators which require a single operand/variable.
+> Operators which require a **single operand/variable**.
 
 | Operator | Operation | Description | Example |
 | -------- | -------- | -------- | -------- |
-| + | Unary Plus | Indicates a positive value | `+x` |
-| - | Unary Minus | Indicates a negative value | `-x` |
-| ++ | Increment | Increases value by 1 | `++x` or `x++` |
-| -- | Decrement | Decreases value by 1| `--x` or `x--` |
+| `+` | Unary Plus | Indicates a positive value | `+x` |
+| `-` | Unary Minus | Indicates a negative value | `-x` |
+| `++` | Increment | Increases value by 1 | `++x` or `x++` |
+| `--` | Decrement | Decreases value by 1| `--x` or `x--` |
 
 ### Binary Operators
-> Operators which require two operands/variables.
+> Operators which require **two operands/variables**.
 
 | Operator | Operation | Description | Example |
 | -------- | -------- | -------- | ------- |
-| + | Addition | Returns the sum of two variables | `x + y` |
-| - | Subtraction | Returns the difference between two variables | `x - y` |
-| * | Multiplication | Returns the product of two variables | `x * y` |
-| / | Division | Returns the quotient of two variables; omits the remainder | `x / y` |
-| % | Modulus | Returns the remainder of two variables; omits the quotient | `x % y` |
+| `+` | Addition | Returns the sum of two variables | `x + y` |
+| `-` | Subtraction | Returns the difference between two variables | `x - y` |
+| `*` | Multiplication | Returns the product of two variables | `x * y` |
+| `/` | Division | Returns the quotient of two variables; omits the remainder | `x / y` |
+| `%` | Modulus | Returns the remainder of two variables; omits the quotient | `x % y` |
 
 ### Combined Operators
 > Shorthand operations
@@ -57,29 +53,29 @@
 | `x %= y` | `x = x % y` |
 
 ### Relational Operators
-> Compares two values and returns either `true (1)` or `false (0)`.
+> **Compares two values** and returns either `true (1)` or `false (0)`.
 
 | Operator | Description | Example |
 | -------- | ----------- | ------- |
-| > | Greater than | `x > y` |
-| < | Less than | `x < y` |
-| >= | Greater than or equal to | `x >= y` |
-| <= | Less than or equal to | `x <= y` |
-| == | Equal to | `x == y` |
-| != | Not equal to | `x != y` |
+| `>` | Greater than | `x > y` |
+| `<` | Less than | `x < y` |
+| `>=` | Greater than or equal to | `x >= y` |
+| `<=` | Less than or equal to | `x <= y` |
+| `==` | Equal to | `x == y` |
+| `!=` | Not equal to | `x != y` |
 
 ### Logical Operators
-> Compares two values and returns either `true (1)` or `false (0)`, with the exception of `! (Not/Negation)` which reverses the value of a variable`.
+> **Compares two values88 and returns either `true (1)` or `false (0)`, with the exception of `! (Not/Negation)` which reverses the value of a variable.
 
 | Operator | Description | Example |
 | -------- | ----------- | ------- |
-| && | And | `x && y` |
-|  \|\| | Or | `x || y` |
-| ! | Not (Negation) | `!x` |
+| `&&` | And | `x && y` |
+|  `\|\|` | Or | `x \|\| y` |
+| `!` | Not (Negation) | `!x` |
 ---
 ## Conditional Statements
 ### If-else statement
-> Checks if an expression is true or false, then decides which block of code to run.
+> **Checks if an expression is true or false**, then decides which block of code to run.
 
 Structure:
 ``` C
@@ -115,7 +111,7 @@ int main(void){
 }
 ```
 ### Ternary Operator
-> A shorthand for If-else statements.
+> A **shorthand for If-else** statements.
 It's called **ternary** because it takes **three parameters**: the **condition**, a **value if true**, and a **value if false**.
 
 Structure:
@@ -155,9 +151,9 @@ int main(void){
 ```
 
 ### Switch case
-> - A conditional statement used when you have multiple possible values for a variable and wish to handle each value differently.
-> - Preferred when there are many cases to check because it makes the code look cleaner and easier to read.
-> - Think of it as another if-else statement but for a lot of conditions.
+> A conditional statement **used when you have multiple possible values** for a variable and wish to **handle each value differently**.
+> Preferred when there are **many cases** to check because it **makes the code look cleaner and easier to read**.
+> Think of it as another if-else statement but for a lot of conditions.
 
 Structure:
 ```C
@@ -228,10 +224,10 @@ int main(void){
 ```
 ---
 ## Loops
-> Used to repeat blocks of code.
+> Used to **repeat blocks of code**.
 
 ### While Loop
-> Repeats a block of code as long as the given condition is true.
+> Repeats a block of code **as long as the given condition is true**.
 
 Structure:
 ```C
@@ -247,4 +243,65 @@ Note:
 - Make sure that there is a **line of code** which eventually **makes the condition `false`** within the `loop body`.
 - **Infinite loops are not fun to deal with :(**
 
+Sample Code:
+```C
+#include <stdio.h>
+int main(void){
+    int num = 1;
+    
+    while (num <= 5) {
+        // Prints the value of variable num while it is less than or equal to 5
+        printf("%d", num);
+        num++; // Increment variable num to eventually end the loop
+    }
+}
+```
 ### For Loop
+> Repeats a block of code **a specific number of times**.
+
+Structure:
+```C
+    for (initialization; condition; increment) {
+        // Code to execute every iteration
+    }
+```
+- `initialization` happens **only once**, before the loop starts.
+- `condition` is **evaluated before each iteration**. If `condition` is `true`, the loop runs, otherwise, it stops.
+- `increment` takes effect after every iteration. It **updates the loop variable** to eventually stop the loop.
+
+Sample Code:
+```C
+#include <stdio.h>
+int main(void){
+    for (int i = 0; i <= 5; i++) {
+        // Prints the value of variable i every iteration.
+        printf("%d", i);
+    }
+}
+```
+
+### Do-While Loop
+> Similar to the While loop, except the **condition is checked after** an iteration. Meaning the **loop will always run atleast once**, regardless whether the condition is true or false.
+
+Structure:
+```C
+do {
+    // Run this code
+} while (condition)
+```
+- `loop body` runs atleast once regardless if the condition is met.
+- `condition` is evaluated after every iteration.
+
+Sample Code:
+```C
+#include <stdio.h>
+int main(void){
+    int num = 0;
+
+    do {
+    // Doesn't check the condition the first time it executes.
+        printf("%d", num);
+        num++;
+    } while (num <= 5);
+}
+```
