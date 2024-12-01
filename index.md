@@ -101,7 +101,7 @@ In simpler terms...
 - `else`: "If all conditions were `false`, do this."
 
 Sample Code:
-``` C
+``` c
 #include <stdio.h>
 int main(void){
     int num = 0;
@@ -125,11 +125,11 @@ int main(void){
 It's called **ternary** because it takes **three parameters**: the **condition**, a **value if true**, and a **value if false**.
 
 Structure:
-``` C
+``` c
 condition ? true : false;
 ```
 Is equivalent to:
-``` C
+``` c
 if (condition) {
     // true;
 } else {
@@ -141,7 +141,7 @@ Simply put, think of it as a mini if-else statement.
 - If the condition is **false**, it picks the value on the **right** of the colon.
 
 Sample Code:
-```C
+```c
 #include <stdio.h>
 int main(void){
     int num = 1;
@@ -167,7 +167,7 @@ int main(void){
 > Think of it as another if-else statement but for a lot of conditions.
 
 Structure:
-```C
+```c
 switch (variable) {
     case value1:
         // Run this code if variable == value1
@@ -191,7 +191,7 @@ switch (variable) {
 - `default`: Similar to the `else` statement, runs the code if there were no matches.
 
 Sample Code:
-```C
+```c
 #include <stdio.h>
 int main(void){
     int day = 6;
@@ -243,7 +243,7 @@ int main(void){
 > Repeats a block of code **as long as the given condition is true**.
 
 Structure:
-```C
+```c
 while (condition) {
     // Run this code until the condition is false;
 }
@@ -257,7 +257,7 @@ Note:
 - **Infinite loops are not fun to deal with :(**
 
 Sample Code:
-```C
+```c
 #include <stdio.h>
 int main(void){
     int num = 1;
@@ -275,7 +275,7 @@ int main(void){
 > Repeats a block of code **a specific number of times**.
 
 Structure:
-```C
+```c
     for (initialization; condition; increment) {
         // Code to execute every iteration
     }
@@ -285,7 +285,7 @@ Structure:
 - `increment` takes effect after every iteration. It **updates the loop variable** to eventually stop the loop.
 
 Sample Code:
-```C
+```c
 #include <stdio.h>
 int main(void){
     for (int i = 0; i <= 5; i++) {
@@ -300,7 +300,7 @@ int main(void){
 > Similar to the While loop, except the **condition is checked after** an iteration. Meaning the **loop will always run atleast once**, regardless whether the condition is true or false.
 
 Structure:
-```C
+```c
 do {
     // Run this code
 } while (condition)
@@ -309,7 +309,7 @@ do {
 - `condition` is evaluated after every iteration.
 
 Sample Code:
-```C
+```c
 #include <stdio.h>
 int main(void){
     int num = 0;
