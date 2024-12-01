@@ -1,20 +1,20 @@
 ## Data Types
-- `int`
+`int`
   - A  **whole number** consisting of an optional sign (+ or -) followed by a sequence of digits.
   - Often used for **loops and conditional statements**.
   - `int x = 9;`
   
-- `float`
+`float`
   - Consists of an optional sign (+ or -), followed by one or more digits, a decimal point and/or one or more further digits.
   - A **decimal number** that can only handle **7 decimal digits**.
   - `float x = 3.1415927;`
     
-- `double`
+`double`
   - A special float that can store **more (15) decimal digits**.
   - Often used for **scientific/financial** computations or anywhere where **accuracy matters**.
   - `double x = 3.141592653589793;`
     
-- `char`
+`char`
   - A variable that **stores a single character**; it can be a single letter, number, or symbol.
   - Acts as a **string when initialized as an array**.
   - `char x = 'a';`
