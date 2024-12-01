@@ -85,7 +85,6 @@
 > **Checks if an expression is true or false**, then decides which block of code to run.
 
 Structure:
-{% highlight c %}
 ``` c
 if (condition1) {
     // run this code if condition1 is true;
@@ -95,7 +94,7 @@ if (condition1) {
     // run this code if none of the expressions are true;
 }
 ```
-{% endhighlight %}
+
 In simpler terms...
 - `if`: "If `condition1` is true, do this."
 - `else if`: "If `condition1` was `false`, check if `condition2` is true, then do this."
