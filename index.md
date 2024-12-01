@@ -1,5 +1,3 @@
-# ComProg1 Reviewer
-
 ## Data Types
 - `int`
   - A  **whole number** consisting of an optional sign (+ or -) followed by a sequence of digits.
@@ -19,7 +17,9 @@
   - `char x = 'a';`
   - `char y[5] = "abcde";`
 ---
+
 ## Arithmetic Operators
+
 ### Unary Operators
 > Operators which require a **single operand/variable**.
 
@@ -65,15 +65,18 @@
 | `!=` | Not equal to | `x != y` |
 
 ### Logical Operators
-> **Compares two values88 and returns either `true (1)` or `false (0)`, with the exception of `! (Not/Negation)` which reverses the value of a variable.
+> **Compares two values** and returns either `true (1)` or `false (0)`, with the exception of `! (Not/Negation)` which reverses the value of a variable.
 
 | Operator | Description | Example |
 | -------- | ----------- | ------- |
 | `&&` | And | `x && y` |
 |  `\|\|` | Or | `x \|\| y` |
 | `!` | Not (Negation) | `!x` |
+
 ---
+
 ## Conditional Statements
+
 ### If-else statement
 > **Checks if an expression is true or false**, then decides which block of code to run.
 
