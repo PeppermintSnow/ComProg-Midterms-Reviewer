@@ -3,19 +3,23 @@
   - A  **whole number** consisting of an optional sign (+ or -) followed by a sequence of digits.
   - Often used for **loops and conditional statements**.
   - `int x = 9;`
+  
 - `float`
   - Consists of an optional sign (+ or -), followed by one or more digits, a decimal point and/or one or more further digits.
   - A **decimal number** that can only handle **7 decimal digits**.
   - `float x = 3.1415927;`
+    
 - `double`
   - A special float that can store **more (15) decimal digits**.
   - Often used for **scientific/financial** computations or anywhere where **accuracy matters**.
   - `double x = 3.141592653589793;`
+    
 - `char`
   - A variable that **stores a single character**; it can be a single letter, number, or symbol.
   - Acts as a **string when initialized as an array**.
   - `char x = 'a';`
   - `char y[5] = "abcde";`
+    
 ---
 
 ## Arithmetic Operators
@@ -81,7 +85,8 @@
 > **Checks if an expression is true or false**, then decides which block of code to run.
 
 Structure:
-``` C
+{% highlight c %}
+``` c
 if (condition1) {
     // run this code if condition1 is true;
 } else if (condition2) {
@@ -90,6 +95,7 @@ if (condition1) {
     // run this code if none of the expressions are true;
 }
 ```
+{% endhighlight %}
 In simpler terms...
 - `if`: "If `condition1` is true, do this."
 - `else if`: "If `condition1` was `false`, check if `condition2` is true, then do this."
