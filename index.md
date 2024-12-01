@@ -286,6 +286,7 @@ int main(void){
     }
 }
 ```
+[![W3Schools]][Link5]
 
 ### Do-While Loop
 > Similar to the While loop, except the **condition is checked after** an iteration. Meaning the **loop will always run atleast once**, regardless whether the condition is true or false.
@@ -312,7 +313,7 @@ int main(void){
     } while (num <= 5);
 }
 ```
-[![W3Schools]][Link5]
+[![W3Schools]][Link6]
 
 <!------------------------------>
 [W3Schools]: https://img.shields.io/badge/W3Schools-04AA6D?logo=w3schools&logoColor=fff
